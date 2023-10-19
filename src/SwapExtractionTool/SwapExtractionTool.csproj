@@ -1,3 +1,5 @@
+-txindex
+-addressindex
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
