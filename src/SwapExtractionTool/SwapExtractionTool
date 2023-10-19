@@ -4,7 +4,7 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
-
+-txindex -addressindex
   <ItemGroup>
     <PackageReference Include="CsvHelper" Version="15.0.5" />
     <PackageReference Include="Flurl" Version="3.0.1" />
@@ -19,3 +19,4 @@
   </ItemGroup>
 
 </Project>
+dotnet run -swapvote -startblock=1997000 -endblock=2023880
